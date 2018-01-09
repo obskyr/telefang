@@ -1,15 +1,16 @@
 #Because macOS
 
-*.asm text
-*.inc text
-*.py text
-*.sh text
-*.txt text
-*.md text
-*.wikitext text
-*.csv text=lf
+*.asm text eol=auto
+*.inc text eol=auto
+*.py text eol=auto
+*.sh text eol=lf
+*.txt text eol=auto
+*.md text eol=auto
+*.wikitext text eol=auto
+*.csv text eol=lf
 
-.gitignore text
-.gitmodules text
-Makefile text
-README text
+.gitignore text eol=auto
+.gitattributes text eol=auto
+.gitmodules text eol=auto
+Makefile text eol=auto
+README text eol=auto
